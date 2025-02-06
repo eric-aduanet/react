@@ -1,4 +1,4 @@
-import { getByTestId, getByText, render } from "@testing-library/react";
+import { getByTestId, getByText, render, screen } from "@testing-library/react";
 import { FirstApp } from "../src/FirstApp";
 
 describe("FirstApp", () => {
